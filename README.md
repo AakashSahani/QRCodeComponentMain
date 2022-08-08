@@ -1,0 +1,2 @@
+# QRCodeComponentMain
+QRCode Component Challenge
