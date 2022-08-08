@@ -1,6 +1,52 @@
-.attribution {
-  font-size: 11px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Outfit', sans-serif; }
+
+main {
+  background: #d6e2f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   text-align: center; }
 
-.attribution a {
-  color: #3e52a3; }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  box-shadow: 0 0 10px 1px #7b879d;
+  border-radius: 1rem;
+  width: 275px;
+  padding: 0.75rem;
+  margin-bottom: 1rem; }
+  .container img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem; }
+  .container .upper-text {
+    margin: 1rem 0 0.75rem 0;
+    font-weight: 700;
+    font-size: 1.2rem; }
+  .container .lower-text {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: #7b879d; }
+
+.attribution {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center; }
+  .attribution a {
+    color: #3e52a3;
+    text-decoration: none; }
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px; } }
