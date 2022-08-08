@@ -1,0 +1,22 @@
+{
+  "name": "qrcodecomponentmain",
+  "version": "1.0.0",
+  "description": "QRCode Component",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AakashSahani/QRCodeComponentMain.git"
+  },
+  "author": "Aakash Sahani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AakashSahani/QRCodeComponentMain/issues"
+  },
+  "homepage": "https://github.com/AakashSahani/QRCodeComponentMain#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
